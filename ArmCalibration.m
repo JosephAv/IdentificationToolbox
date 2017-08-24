@@ -45,7 +45,7 @@ anglesub   = repmat(anglesub,1,CalibFrameNum); %lower bounds (Angles)
 %remember Parameters = [DX DY DZ DX1 DY1 DZ1 DX2 DY2 DZ2 DX3 DY3 DZ3 L1 L2 Suppx Suppy ParX ParZ];
 
 %define Upper limb Geom Parameters (Initial Guess) & Bounds
-UpperLimbParametersIG  = [130 160 -140  0  40 170 0 20 180 25 5 0 300 270]; %[90 200 -40  0  40  180 0 20 155 22  5 0 300 225];
+UpperLimbParametersIG  = [170 150 -140  0  40  140 0 20 160 35  5 0 300 250]; %[90 200 -40  0  40  180 0 20 155 22  5 0 300 225];
 
 %UpperLimbParametersIG = [108.2569 174.7941 -50.3476 -6.7210 10.9731 131.3430 -14.1185 -0.2734 136.7899 49.4783 20.2631 -18.2123 285.5432 220.2431];
 %UpperLimbParametersIG = [108.2569 174.7941 -50.3476 -6.7210 10.9731 131.3430 -14.1185 -0.2734 136.7899 49.4783 20.2631 -18.2123 285.5432 220.2431 0];

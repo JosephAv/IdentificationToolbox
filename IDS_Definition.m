@@ -1,13 +1,13 @@
 ReferenceIDS = [11 4 7 9];
-ArmIDS       = [5 6 10 8 19 22];
+ArmIDS       = [5 6 10 8 22 19];
 ForearmIDS   = [23 21 20 16 18 17];
-HandIDS      = [32 30 31 28];
+HandIDS      = [32 30 33 28];
 
-ThumbIDS     = [29 33 34 35]; 
-IndexIDS     = [68 66 69 70];
-MiddleIDS    = [41 45 43 44];
-RingIDS      = [67 64 65 71];
-LittleIDS    = [46 42 47 40];
+ThumbIDS     = [34 35 29 31]; 
+IndexIDS     = [68 67 63 64];
+MiddleIDS    = [47 46 44 45];
+RingIDS      = [69 70 66 71];
+LittleIDS    = [42 43 41 40];
 
 
 

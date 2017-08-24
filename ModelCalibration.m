@@ -4,7 +4,7 @@ clc
 
 directory = 'datasets/';
 
-Subject = 'Mimma_30';
+Subject = 'carlotta_26';
 
 %Filename = 'task7.dat';
 Task = '_7';
@@ -35,8 +35,6 @@ ArmCalibration
 toc
 
 ArmIdentification
-
-VISUAL
 
 %% HandCalib
 clear all

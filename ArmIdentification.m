@@ -13,7 +13,7 @@ for index1 = 1 : 30
 
     directory = 'datasets/';
 
-    Subject = 'Mimma_30';
+    Subject = 'carlotta_26';
 
     %Filename = 'task7.dat';
     Task = ['_' num2str(index1)];
@@ -80,11 +80,11 @@ for index1 = 1 : 30
     varInnov = zeros(MkNumberUL*3,MkNumberUL*3);
 
     % Define the measurement covariance
-    R_OBS = 10^2*eye(MkNumberUL*3); 
+    R_OBS = 10^6*eye(MkNumberUL*3); 
 
     %Define P and Q
     P = 0.001*eye(7); %incertezza c.i.  ok 0.001
-    processNoise = 0.001*eye(7); %Q %incertezza modello
+    processNoise = 0.01*eye(7); %Q %incertezza modello
 
     %initialize a matrix that will contains all estimed angles
     EstimatedQ = [];
